@@ -13,3 +13,8 @@
 /Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/DrinkInfo.pdb
 /Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/DrinkInfo.genruntimeconfig.cache
 /Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/ref/DrinkInfo.dll
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/bin/Debug/net9.0/ConsoleTableExt.dll
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/bin/Debug/net9.0/RestSharp.dll
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/DrinkInfo.csproj.AssemblyReference.cache
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/DrinkInfo.csproj.Up2Date
