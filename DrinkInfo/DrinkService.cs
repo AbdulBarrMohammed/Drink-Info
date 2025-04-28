@@ -7,6 +7,10 @@ namespace DrinkInfo
 {
     public class DrinkService
     {
-        
+
+        public void GetCategories()
+        {
+            
+        }
     }
 }
