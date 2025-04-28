@@ -13,6 +13,16 @@ namespace DrinkInfo
         internal void GetCategoriesInput()
         {
             drinkService.GetCategories();
+
+            Console.WriteLine("Choose category:");
+
+            string category = Console.ReadLine();
+
+            while(!Validator.IsStringValid(category))
+            {
+                Console.WriteLine("\nInvalid category");
+                category = Console.ReadLine();
+            }
         }
 
     }
