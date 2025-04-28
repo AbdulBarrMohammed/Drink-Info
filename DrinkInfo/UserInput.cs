@@ -29,7 +29,22 @@ namespace DrinkInfo
 
         private void GetDrinksInput(string category)
         {
+            // Show list of selected cateory of drinks
             drinkService.GetDrinksByCategory(category);
+
+            Console.WriteLine("Choose a drink or go back to category menu by typing 0:");
+
+            string drink = Console.ReadLine();
+
+            if (drink == "0") GetCategoriesInput();
+
+            while(!Validator.IsIdValid(drink))
+            {
+                Console.WriteLine("\nInvalid drink");
+                drink = Console.ReadLine();
+            }
+
+            drinkService.GetDrink(drink);
         }
     }
 }
