@@ -12,7 +12,7 @@ namespace DrinkInfo
 
         internal void GetCategoriesInput()
         {
-            var categories = drinksService.GetCategories();
+            var categories = drinkService.GetCategories();
 
             Console.WriteLine("Choose category:");
 
