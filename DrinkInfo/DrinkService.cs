@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
+using System.Web;
 using DrinkInfo.Model;
 using Newtonsoft.Json;
 using RestSharp;
@@ -26,6 +28,23 @@ namespace DrinkInfo
                 List<Category> returnedList = serialize.CategoriesList;
 
                 TableVisualisationEngine.ShowTable(returnedList, "Categories Menu");
+            }
+        }
+
+        internal void GetDrinksByCategory(string category)
+        {
+            var client = new RestClient("https://www.thecocktaildb.com/api/json/v1/1/");
+            var request = new RestRequest($"filter.php?c={HttpUtility.UrlEncode(category)}");
+            var response = client.ExecuteAsync(request);
+
+            if (response.Result.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                string rawResponse = response.Result.Content;
+                var serialize = JsonConvert.DeserializeObject<Drinks>(rawResponse);
+
+                List<Drink> returnedList = serialize.DrinkList;
+
+                TableVisualisationEngine.ShowTable(returnedList, "Drinks Menu");
             }
         }
     }

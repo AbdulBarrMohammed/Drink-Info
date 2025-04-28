@@ -23,7 +23,13 @@ namespace DrinkInfo
                 Console.WriteLine("\nInvalid category");
                 category = Console.ReadLine();
             }
+
+            GetDrinksInput(category);
         }
 
+        private void GetDrinksInput(string category)
+        {
+            drinkService.GetDrinksByCategory(category);
+        }
     }
 }
