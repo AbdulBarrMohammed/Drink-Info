@@ -1,0 +1,15 @@
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/bin/Debug/net9.0/DrinkInfo
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/bin/Debug/net9.0/DrinkInfo.deps.json
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/bin/Debug/net9.0/DrinkInfo.runtimeconfig.json
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/bin/Debug/net9.0/DrinkInfo.dll
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/bin/Debug/net9.0/DrinkInfo.pdb
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/DrinkInfo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/DrinkInfo.AssemblyInfoInputs.cache
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/DrinkInfo.AssemblyInfo.cs
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/DrinkInfo.csproj.CoreCompileInputs.cache
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/DrinkInfo.sourcelink.json
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/DrinkInfo.dll
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/refint/DrinkInfo.dll
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/DrinkInfo.pdb
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/DrinkInfo.genruntimeconfig.cache
+/Users/barrmohammed/Desktop/DotnetAcademy/DrinkInfo/DrinkInfo/obj/Debug/net9.0/ref/DrinkInfo.dll
